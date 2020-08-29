@@ -1,0 +1,36 @@
+rules:
+  - rule:
+      classes:
+        - IfcStair
+      constraints:
+        - and:
+          - path:
+              - attribute: ObjectType
+            check:
+              equals: Stair:Residential - 200mm Max Riser 250mm Tread
+          - path:
+              - list: IsDecomposedBy
+              - list: RelatedObjects
+              - attribute: Name
+                value: Railing:1100mm Guard Rail:151166
+              - attribute: Name
+            check:
+              equals: Railing:1100mm Guard Rail:151166
+  - rule:
+      classes:
+        - IfcWallStandardCase
+      constraints:
+        - and:
+          - path:
+              - list: HasAssociations
+              - attribute: RelatingMaterial
+              - attribute: LayerSetDirection
+            check:
+              equals: AXIS2
+          - path:
+              - list: HasAssociations
+              - attribute: RelatingMaterial
+              - attribute: ForLayerSet
+              - attribute: LayerSetName
+            check:
+              equals: Basic Wall:Foundation - Concrete (417mm)

@@ -1,0 +1,109 @@
+rules:
+  - rule:
+      classes:
+        - IfcWall
+      constraints:
+        - or:
+            - and:
+                - path:
+                  check:
+                    not:
+                      exists: IsTypedBy
+                - or:
+                    - path:
+                      check:
+                        not:
+                          exists: PredefinedType
+                    - path:
+                        - attribute: PredefinedType
+                      check:
+                        not:
+                          equals: USERDEFINED
+                    - and:
+                        - path:
+                            - attribute: PredefinedType
+                          check:
+                            equals: USERDEFINED
+                        - path:
+                          check:
+                            exists: ObjectType
+            - and:
+                - path:
+                  check:
+                    exists: IsTypedBy
+                - and:
+                    - or:
+                        - path:
+                            - list: IsTypedBy
+                            - type: IfcRelDefinesByType
+                            - attribute: RelatingType
+                            - type: IfcTypeObject
+                          check:
+                            not:
+                              exists: PredefinedType
+                        - path:
+                            - list: IsTypedBy
+                            - type: IfcRelDefinesByType
+                            - attribute: RelatingType
+                            - type: IfcTypeObject
+                            - attribute: PredefinedType
+                          check:
+                            equals: NOTDEFINED
+                    - or:
+                        - path:
+                          check:
+                            not:
+                              exists: PredefinedType
+                        - path:
+                            - attribute: PredefinedType
+                          check:
+                            not:
+                              equals: USERDEFINED
+                        - and:
+                            - path:
+                                - attribute: PredefinedType
+                              check:
+                                equals: USERDEFINED
+                            - path:
+                              check:
+                                exists: ObjectType
+            - and:
+                - path:
+                  check:
+                    exists: IsTypedBy
+                - or:
+                    - and:
+                        - path:
+                            - list: IsTypedBy
+                            - type: IfcRelDefinesByType
+                            - attribute: RelatingType
+                            - type: IfcTypeObject
+                            - attribute: PredefinedType
+                          check:
+                            equals: USERDEFINED
+                        - path:
+                            - list: IsTypedBy
+                            - type: IfcRelDefinesByType
+                            - attribute: RelatingType
+                            - type: IfcTypeObject
+                          check:
+                            exists: ElementType
+                        - path:
+                          check:
+                            not:
+                              exists: PredefinedType
+                    - and:
+                        - path:
+                            - list: IsTypedBy
+                            - type: IfcRelDefinesByType
+                            - attribute: RelatingType
+                            - type: IfcTypeObject
+                            - attribute: PredefinedType
+                          check:
+                            not:
+                              equals: USERDEFINED
+                        - path:
+                          check:
+                            not:
+                              exists: PredefinedType
+

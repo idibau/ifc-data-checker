@@ -1,0 +1,15 @@
+rules:
+  - rule:
+      classes:
+        - IfcFlowTerminal
+      constraints:
+        - set:
+          - path:
+              - list: IsDefinedBy
+              - type: IfcRelDefinesByType
+              - attribute: RelatingType
+              - type: IfcElectricApplianceType
+              - attribute: PredefinedType
+            check:
+              equals: FRIDGE_FREEZER
+              

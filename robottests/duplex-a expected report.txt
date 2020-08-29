@@ -1,0 +1,293 @@
+validation report duplex a rules.yml Duplex-A.ifc
+Rule: 1 of 2 instances of types ['IfcStair'] successfully validated.
+
+IfcStair Stair:Residential - 200mm Max Riser 250mm Tread:151086 Global Id: 0wkEuT1wr1kOyafLY4v_O1: 1 of 1 constraints are valid.
+and group: ValidationResult.VALID: Each of 2 constraints are valid.
+Stair:Residential - 200mm Max Riser 250mm Tread as expected
+Railing:1100mm Guard Rail:151166 as expected
+
+IfcStair Stair:Residential - 200mm Max Riser 250mm Tread:198878 Global Id: 21ldoMpbP4VfsJ0XGY_34d: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+Stair:Residential - 200mm Max Riser 250mm Tread as expected
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+Rule: 4 of 56 instances of types ['IfcWallStandardCase'] successfully validated.
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):138584 Global Id: 2O2Fr$t4X7Zf8NOew3FNld: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234 Global Id: 2O2Fr$t4X7Zf8NOew3FNbT: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Party Wall - CMU Residential Unit Dimising Wall
+
+IfcWallStandardCase Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139347 Global Id: 2O2Fr$t4X7Zf8NOew3FKRi: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Party Wall - CMU Residential Unit Dimising Wall
+
+IfcWallStandardCase Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374 Global Id: 2O2Fr$t4X7Zf8NOew3FKRH: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Party Wall - CMU Residential Unit Dimising Wall
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):139783 Global Id: 2O2Fr$t4X7Zf8NOew3FKIu: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):139939 Global Id: 2O2Fr$t4X7Zf8NOew3FKGS: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (417mm):140479 Global Id: 2O2Fr$t4X7Zf8NOew3FK80: 1 of 1 constraints are valid.
+and group: ValidationResult.VALID: Each of 2 constraints are valid.
+AXIS2 as expected
+Basic Wall:Foundation - Concrete (417mm) as expected
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (417mm):140520 Global Id: 2O2Fr$t4X7Zf8NOew3FK9N: 1 of 1 constraints are valid.
+and group: ValidationResult.VALID: Each of 2 constraints are valid.
+AXIS2 as expected
+Basic Wall:Foundation - Concrete (417mm) as expected
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (417mm):140554 Global Id: 2O2Fr$t4X7Zf8NOew3FKEr: 1 of 1 constraints are valid.
+and group: ValidationResult.VALID: Each of 2 constraints are valid.
+AXIS2 as expected
+Basic Wall:Foundation - Concrete (417mm) as expected
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (417mm):140602 Global Id: 2O2Fr$t4X7Zf8NOew3FKE5: 1 of 1 constraints are valid.
+and group: ValidationResult.VALID: Each of 2 constraints are valid.
+AXIS2 as expected
+Basic Wall:Foundation - Concrete (417mm) as expected
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (435mm):140913 Global Id: 2O2Fr$t4X7Zf8NOew3FK3E: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Foundation - Concrete (435mm)
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (435mm):140987 Global Id: 2O2Fr$t4X7Zf8NOew3FK04: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Foundation - Concrete (435mm)
+
+IfcWallStandardCase Basic Wall:Foundation - Concrete (435mm):141018 Global Id: 2O2Fr$t4X7Zf8NOew3FK1b: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Foundation - Concrete (435mm)
+
+IfcWallStandardCase Basic Wall:Interior - Plumbing (152mm Stud):144138 Global Id: 2O2Fr$t4X7Zf8NOew3FLMr: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Plumbing (152mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):144301 Global Id: 2O2Fr$t4X7Zf8NOew3FLKI: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):144684 Global Id: 2O2Fr$t4X7Zf8NOew3FLEJ: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Plumbing (152mm Stud):144783 Global Id: 2O2Fr$t4X7Zf8NOew3FLCm: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Plumbing (152mm Stud)
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:138157 Global Id: 2O2Fr$t4X7Zf8NOew3FNqI: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:138310 Global Id: 2O2Fr$t4X7Zf8NOew3FNhv: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:143410 Global Id: 2O2Fr$t4X7Zf8NOew3FLQD: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:143534 Global Id: 2O2Fr$t4X7Zf8NOew3FLOH: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):139682 Global Id: 2O2Fr$t4X7Zf8NOew3FKST: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):139143 Global Id: 2O2Fr$t4X7Zf8NOew3FNau: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):143856 Global Id: 2O2Fr$t4X7Zf8NOew3FLTF: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):144518 Global Id: 2O2Fr$t4X7Zf8NOew3FL8v: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):143960 Global Id: 2O2Fr$t4X7Zf8NOew3FLJd: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):144633 Global Id: 2O2Fr$t4X7Zf8NOew3FL96: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):143921 Global Id: 2O2Fr$t4X7Zf8NOew3FLIE: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):144586 Global Id: 2O2Fr$t4X7Zf8NOew3FL9r: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:138062 Global Id: 2O2Fr$t4X7Zf8NOew3FNtn: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:138237 Global Id: 2O2Fr$t4X7Zf8NOew3FNr2: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:143478 Global Id: 2O2Fr$t4X7Zf8NOew3FLR9: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:143590 Global Id: 2O2Fr$t4X7Zf8NOew3FLPP: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:184944 Global Id: 0jf0rYHfX3RAB3bSIRjmmy: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:185014 Global Id: 0jf0rYHfX3RAB3bSIRjmpw: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:185064 Global Id: 0jf0rYHfX3RAB3bSIRjmoa: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Exterior - Brick on Block:185101 Global Id: 0jf0rYHfX3RAB3bSIRjmr1: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Exterior - Brick on Block
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):189074 Global Id: 0iEHWY1$XA8eQeeULq4jZ1: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):189901 Global Id: 0iEHWY1$XA8eQeeULq4j_U: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):190140 Global Id: 0iEHWY1$XA8eQeeULq4jpl: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):190774 Global Id: 0iEHWY1$XA8eQeeULq4jDb: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):190933 Global Id: 0iEHWY1$XA8eQeeULq4jE6: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):193247 Global Id: 0dxE1Sy6nDqfpDb5vIMNiA: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (152 mm Stud):194166 Global Id: 0dxE1Sy6nDqfpDb5vIMN_Z: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (152 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):203347 Global Id: 1aj$VJZFn2TxepZUBcKpvt: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):203998 Global Id: 1aj$VJZFn2TxepZUBcKpZw: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):204300 Global Id: 1aj$VJZFn2TxepZUBcKpee: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Partition (92mm Stud):204493 Global Id: 1aj$VJZFn2TxepZUBcKphf: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Partition (92mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217414 Global Id: 3Y4YRln2r91vflHcHE5IVS: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217415 Global Id: 3Y4YRln2r91vflHcHE5IVT: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217416 Global Id: 3Y4YRln2r91vflHcHE5IVI: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217417 Global Id: 3Y4YRln2r91vflHcHE5IVJ: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217577 Global Id: 3Y4YRln2r91vflHcHE5ITp: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217578 Global Id: 3Y4YRln2r91vflHcHE5ITm: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217579 Global Id: 3Y4YRln2r91vflHcHE5ITn: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)
+
+IfcWallStandardCase Basic Wall:Interior - Furring (38 mm Stud):217580 Global Id: 3Y4YRln2r91vflHcHE5ITs: 0 of 1 constraints are valid.
+and group: ValidationResult.FAILED: 1 of 2 constraints are valid.
+AXIS2 as expected
+validation equals failed - expected: Basic Wall:Foundation - Concrete (417mm), actual: Basic Wall:Interior - Furring (38 mm Stud)

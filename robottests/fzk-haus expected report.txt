@@ -1,0 +1,189 @@
+validation report fzk haus rules.yml FZK-Haus.ifc
+Rule: 11 of 11 instances of types ['IfcWindow'] successfully validated.
+
+IfcWindow EG-Fenster-6 Global Id: 1srAI$R4T8ihLXSNHmUSET: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-7 Global Id: 0B1RwEzzP3CfME5NR$Vqh5: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-4 Global Id: 25nJxEpYf8LRDJNkMUVO0m: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-5 Global Id: 3BFcylCsX74PQAoRAe5fNv: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-8 Global Id: 13aSY79zb8fP4HApEJ0z_e: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-9 Global Id: 2EQh_jhP1B_A_AMuSJc5E0: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-1 Global Id: 1TAI4ouKX4Xx4lBDZIu5qM: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-2 Global Id: 2Q9w7oRXP249jBobEMVqlZ: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow EG-Fenster-3 Global Id: 1DiYqhfzH9xxuJdVHwXCNa: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+IFC Fenster - zwei Panele - Vertikal as expected
+validation equals failed - expected: Rundfenster 13, actual: IFC Fenster - zwei Panele - Vertikal
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow OG-Fenster-2 Global Id: 1zOBw0Gej5Wf0QAJfHnOc0: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+validation equals failed - expected: IFC Fenster - zwei Panele - Vertikal, actual: Rundfenster 13
+Rundfenster 13 as expected
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+
+IfcWindow OG-Fenster-1 Global Id: 2ACmFFQhT1Ouf0x4YRUh9m: 2 of 2 constraints are valid.
+set group: ValidationResult.VALID: 2 of 2 constraints are valid.
+Solid is allowed
+Leichtbeton 102890359 as expected
+or group: ValidationResult.VALID: 2 of 3 constraints are valid.
+validation equals failed - expected: IFC Fenster - zwei Panele - Vertikal, actual: Rundfenster 13
+Rundfenster 13 as expected
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+NOTDEFINED as expected
+Rule: 11 of 11 instances of types ['IfcWindow'] successfully validated.
+
+IfcWindow EG-Fenster-6 Global Id: 1srAI$R4T8ihLXSNHmUSET: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #23024=IfcWindow('1srAI$R4T8ihLXSNHmUSET',#12,'EG-Fenster-6',$,$,#22372,#23020,'2872C43C-81BB-4535-95-65-B3AC3FB4DE23',1.2,2.,$,$,$) as expected IfcWindow.
+type of #23024=IfcWindow('1srAI$R4T8ihLXSNHmUSET',#12,'EG-Fenster-6',$,$,#22372,#23020,'2872C43C-81BB-4535-95-65-B3AC3FB4DE23',1.2,2.,$,$,$) as expected IfcObject.
+type of #23057=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-7 Global Id: 0B1RwEzzP3CfME5NR$Vqh5: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #23944=IfcWindow('0B1RwEzzP3CfME5NR$Vqh5',#12,'EG-Fenster-7',$,$,#23298,#23940,'E5AC7902-7454-439D-AF-DD-A1E5E37A0D08',1.2,2.,$,$,$) as expected IfcWindow.
+type of #23944=IfcWindow('0B1RwEzzP3CfME5NR$Vqh5',#12,'EG-Fenster-7',$,$,#23298,#23940,'E5AC7902-7454-439D-AF-DD-A1E5E37A0D08',1.2,2.,$,$,$) as expected IfcObject.
+type of #23977=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-4 Global Id: 25nJxEpYf8LRDJNkMUVO0m: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #27833=IfcWindow('25nJxEpYf8LRDJNkMUVO0m',#12,'EG-Fenster-4',$,$,#27815,#27829,'436D2D20-7879-42FD-A7-70-F2BECB09D642',1.2,2.,$,$,$) as expected IfcWindow.
+type of #27833=IfcWindow('25nJxEpYf8LRDJNkMUVO0m',#12,'EG-Fenster-4',$,$,#27815,#27829,'436D2D20-7879-42FD-A7-70-F2BECB09D642',1.2,2.,$,$,$) as expected IfcObject.
+type of #27866=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-5 Global Id: 3BFcylCsX74PQAoRAe5fNv: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #28113=IfcWindow('3BFcylCsX74PQAoRAe5fNv',#12,'EG-Fenster-5',$,$,#28095,#28109,'EE544359-8729-43CD-AE-E2-4BB37935CFDA',1.2,2.,$,$,$) as expected IfcWindow.
+type of #28113=IfcWindow('3BFcylCsX74PQAoRAe5fNv',#12,'EG-Fenster-5',$,$,#28095,#28109,'EE544359-8729-43CD-AE-E2-4BB37935CFDA',1.2,2.,$,$,$) as expected IfcObject.
+type of #28146=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-8 Global Id: 13aSY79zb8fP4HApEJ0z_e: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #31818=IfcWindow('13aSY79zb8fP4HApEJ0z_e',#12,'EG-Fenster-8',$,$,#31800,#31814,'8FAFF59C-23BB-48D6-9C-CE-C4F804C53C9A',1.2,2.,$,$,$) as expected IfcWindow.
+type of #31818=IfcWindow('13aSY79zb8fP4HApEJ0z_e',#12,'EG-Fenster-8',$,$,#31800,#31814,'8FAFF59C-23BB-48D6-9C-CE-C4F804C53C9A',1.2,2.,$,$,$) as expected IfcObject.
+type of #31851=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-9 Global Id: 2EQh_jhP1B_A_AMuSJc5E0: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #32098=IfcWindow('2EQh_jhP1B_A_AMuSJc5E0',#12,'EG-Fenster-9',$,$,#32080,#32094,'A896A1CB-16B1-4CCD-A5-98-F5C5BC0C37DE',1.2,2.,$,$,$) as expected IfcWindow.
+type of #32098=IfcWindow('2EQh_jhP1B_A_AMuSJc5E0',#12,'EG-Fenster-9',$,$,#32080,#32094,'A896A1CB-16B1-4CCD-A5-98-F5C5BC0C37DE',1.2,2.,$,$,$) as expected IfcObject.
+type of #32131=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-1 Global Id: 1TAI4ouKX4Xx4lBDZIu5qM: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #32829=IfcWindow('1TAI4ouKX4Xx4lBDZIu5qM',#12,'EG-Fenster-1',$,$,#32811,#32825,'EAC2BE5E-BCD2-474E-95-24-57C652F96BF7',1.2,2.,$,$,$) as expected IfcWindow.
+type of #32829=IfcWindow('1TAI4ouKX4Xx4lBDZIu5qM',#12,'EG-Fenster-1',$,$,#32811,#32825,'EAC2BE5E-BCD2-474E-95-24-57C652F96BF7',1.2,2.,$,$,$) as expected IfcObject.
+type of #32862=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-2 Global Id: 2Q9w7oRXP249jBobEMVqlZ: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #33109=IfcWindow('2Q9w7oRXP249jBobEMVqlZ',#12,'EG-Fenster-2',$,$,#33091,#33105,'84B24574-B3EE-412A-A4-33-CE7E10ED2A8D',1.2,2.,$,$,$) as expected IfcWindow.
+type of #33109=IfcWindow('2Q9w7oRXP249jBobEMVqlZ',#12,'EG-Fenster-2',$,$,#33091,#33105,'84B24574-B3EE-412A-A4-33-CE7E10ED2A8D',1.2,2.,$,$,$) as expected IfcObject.
+type of #33142=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow EG-Fenster-3 Global Id: 1DiYqhfzH9xxuJdVHwXCNa: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #33389=IfcWindow('1DiYqhfzH9xxuJdVHwXCNa',#12,'EG-Fenster-3',$,$,#33371,#33385,'EDE1E333-3D1C-441D-BE-45-790DF31E9DDC',1.2,2.,$,$,$) as expected IfcWindow.
+type of #33389=IfcWindow('1DiYqhfzH9xxuJdVHwXCNa',#12,'EG-Fenster-3',$,$,#33371,#33385,'EDE1E333-3D1C-441D-BE-45-790DF31E9DDC',1.2,2.,$,$,$) as expected IfcObject.
+type of #33422=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow OG-Fenster-2 Global Id: 1zOBw0Gej5Wf0QAJfHnOc0: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #66459=IfcWindow('1zOBw0Gej5Wf0QAJfHnOc0',#12,'OG-Fenster-2',$,$,#60773,#66455,'FA683FAD-0F01-4AF4-93-87-2834E91204A6',1.,1.,$,$,$) as expected IfcWindow.
+type of #66459=IfcWindow('1zOBw0Gej5Wf0QAJfHnOc0',#12,'OG-Fenster-2',$,$,#60773,#66455,'FA683FAD-0F01-4AF4-93-87-2834E91204A6',1.,1.,$,$,$) as expected IfcObject.
+type of #66502=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+
+IfcWindow OG-Fenster-1 Global Id: 2ACmFFQhT1Ouf0x4YRUh9m: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 3 of 3 constraints are valid.
+type of #74280=IfcWindow('2ACmFFQhT1Ouf0x4YRUh9m',#12,'OG-Fenster-1',$,$,#68594,#74276,'671AB351-B612-4D9E-BC-6F-DAEBA688142F',1.,1.,$,$,$) as expected IfcWindow.
+type of #74280=IfcWindow('2ACmFFQhT1Ouf0x4YRUh9m',#12,'OG-Fenster-1',$,$,#68594,#74276,'671AB351-B612-4D9E-BC-6F-DAEBA688142F',1.,1.,$,$,$) as expected IfcObject.
+type of #74323=IfcPropertySingleValue('Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur',$,IfcLabel('Solid'),$) as expected IfcPropertySingleValue.
+Rule: 1 of 1 instances of types ['IfcStair'] successfully validated.
+
+IfcStair Wendeltreppe Global Id: 38a9vdh9bF5Qg28GWyHhlr: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+type of #14502=IfcStair('38a9vdh9bF5Qg28GWyHhlr',#12,'Wendeltreppe',$,$,#502,#14498,'79A67A01-C95B-4209-86-9A-74983B65305C',$) as expected IfcStair.
+Rule: 1 of 1 instances of types ['IfcStair'] successfully validated.
+
+IfcStair Wendeltreppe Global Id: 38a9vdh9bF5Qg28GWyHhlr: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+check FAILED as expected, message: #14502=IfcStair('38a9vdh9bF5Qg28GWyHhlr',#12,'Wendeltreppe',$,$,#502,#14498,'79A67A01-C95B-4209-86-9A-74983B65305C',$) is not of type IfcWindow, it is of type IfcStair.

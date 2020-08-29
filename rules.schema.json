@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitlab.fhnw.ch/ifc-data-checker/ifc-data-checker/-/tree/master/rules.schema.json",
+  "title": "Rules of the IFC Data Checker",
+  "description": "Rules for validation IFC files with the IFC Data Checker",
+  "definitions": {
+    "constraint": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/pathoperators"
+              }
+            },
+            "check": {
+              "type": "object",
+              "$ref": "#/definitions/constraintchecks"
+            }
+          },
+          "required": [
+            "path",
+            "check"
+          ],
+          "additionalItems": false
+        },
+        {
+          "$ref": "#/definitions/constraintgroups"
+        }
+      ]
+    },
+    "constraintgroups": {
+      "oneOf": [
+        {
+          "properties": {
+            "set": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/constraint"
+              }
+            }
+          },
+          "required": [
+            "set"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "and": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/constraint"
+              }
+            }
+          },
+          "required": [
+            "and"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "or": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/constraint"
+              }
+            }
+          },
+          "required": [
+            "or"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "pathoperators": {
+      "oneOf": [
+        {
+          "properties": {
+            "list": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "list"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "attribute": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "attribute"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "attribute": {
+              "type": "string"
+            },
+            "value": {
+              "type": [
+                "string",
+                "boolean",
+                "integer",
+                "number"
+              ]
+            }
+          },
+          "required": [
+            "attribute",
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "constraintchecks": {
+      "oneOf": [
+        {
+          "properties": {
+            "equals": {
+              "type": [
+                "string",
+                "boolean",
+                "integer",
+                "number"
+              ]
+            }
+          },
+          "required": [
+            "equals"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "in": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "string",
+                  "boolean",
+                  "integer",
+                  "number"
+                ]
+              }
+            }
+          },
+          "required": [
+            "in"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "exists": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exists"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "not": {
+              "type": "object",
+              "$ref": "#/definitions/constraintchecks"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "type": "object",
+  "required": [
+    "rules"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "rules": {
+      "description": "All rules",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rule"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "rule": {
+            "type": "object",
+            "required": [
+              "classes",
+              "constraints"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "classes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              },
+              "constraints": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/constraint"
+                },
+                "minItems": 1
+              }
+            }
+          }
+        }
+      },
+      "minItems": 1
+    }
+  }
+}

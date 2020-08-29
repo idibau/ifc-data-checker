@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mvdXML example on Duplex A",
+            "type": "python",
+            "request": "launch",
+            "program": "checker.py",
+            "console": "integratedTerminal",
+            "args": ["./rulesfiles/PredefinedType for IfcWall.yml", "./ifcfiles/Duplex-A.ifc"]
+        },
+        {
+            "name": "Duplex MEP",
+            "type": "python",
+            "request": "launch",
+            "program": "checker.py",
+            "console": "integratedTerminal",
+            "args": ["./rulesfiles/duplex mep rules.yml", "./ifcfiles/Duplex-MEP.ifc"]
+        },
+        {
+            "name": "Duplex A",
+            "type": "python",
+            "request": "launch",
+            "program": "checker.py",
+            "console": "integratedTerminal",
+            "args": ["./rulesfiles/duplex a rules.yml", "./ifcfiles/Duplex-A.ifc"]
+        },
+        {
+            "name": "FZK Haus (type checking)",
+            "type": "python",
+            "request": "launch",
+            "program": "checker.py",
+            "console": "integratedTerminal",
+            "args": ["./rulesfiles/fzk haus rules.yml", "./ifcfiles/FZK-Haus.ifc"]
+        }
+    ]
+}

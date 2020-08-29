@@ -1,0 +1,97 @@
+rules:
+  - rule:
+      classes:
+        - IfcWindow
+      constraints:
+        - set:
+            - path:
+                - list: IsDefinedBy
+                - attribute: RelatingPropertyDefinition
+                - type: IfcPropertySet
+                - attribute: Name # Property Set Name filtering
+                  value: ArchiCADProperties
+                - list: HasProperties
+                - type: IfcPropertySingleValue
+                - attribute: Name
+                  value: Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur
+                - attribute: NominalValue
+                - attribute: wrappedValue
+              check:
+                in:
+                  - Weak
+                  - Other Value
+                  - Solid
+            - path:
+                - list: IsDefinedBy
+                - attribute: RelatingPropertyDefinition
+                - type: IfcPropertySet
+                - attribute: Name # Property Set Name filtering
+                  value: ArchiCADProperties
+                - list: HasProperties
+                - type: IfcPropertySingleValue
+                - attribute: Name
+                  value: Wandstruktur
+                - attribute: NominalValue
+                - attribute: wrappedValue
+              check:
+                equals: Leichtbeton 102890359
+        - or:
+            - path:
+                - list: IsTypedBy
+                - attribute: RelatingType
+                - attribute: Name
+              check:
+                equals: IFC Fenster - zwei Panele - Vertikal
+            - path:
+                - list: IsTypedBy
+                - attribute: RelatingType
+                - attribute: Name
+              check:
+                equals: Rundfenster 13
+            - set:
+                - path:
+                    - list: IsTypedBy
+                    - attribute: RelatingType
+                    - attribute: PredefinedType
+                  check:
+                    equals: NOTDEFINED
+  - rule:
+      classes:
+        - IfcWindow
+      constraints:
+        - set:
+            - path:
+              check:
+                type: IfcWindow
+            - path:
+              check:
+                type: IfcObject
+            - path:
+                - list: IsDefinedBy
+                - attribute: RelatingPropertyDefinition
+                - type: IfcPropertySet
+                - attribute: Name # Property Set Name filtering
+                  value: ArchiCADProperties
+                - list: HasProperties
+                - type: IfcPropertySingleValue
+                - attribute: Name
+                  value: Baustoff / Mehrschichtiger Aufbau / Profil / Schraffur
+              check:
+                type: IfcPropertySingleValue
+  - rule:
+      classes:
+        - IfcStair
+      constraints:
+        - set:
+            - path:
+              check:
+                type: IfcStair
+  - rule:
+      classes:
+        - IfcStair
+      constraints:
+        - set:
+            - path:
+              check:
+                not:
+                  type: IfcWindow

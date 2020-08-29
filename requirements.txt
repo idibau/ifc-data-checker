@@ -1,0 +1,10 @@
+pyyaml
+jsonschema
+pylint
+bandit
+html-testRunner
+coverage
+Sphinx
+sphinx-rtd-theme
+rst2pdf
+robotframework

@@ -1,0 +1,422 @@
+validation report duplex mep rules.yml Duplex-MEP.ifc
+Rule: 2 of 105 instances of types ['IfcFlowTerminal'] successfully validated.
+
+IfcFlowTerminal M_Refrigerator:850 x 760mm:850 x 760mm:575374 Global Id: 2f8GAP3Wb6_RpjhBiN7Zoq: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+FRIDGE_FREEZER as expected
+
+IfcFlowTerminal M_Refrigerator:850 x 760mm:850 x 760mm:575375 Global Id: 1K7eM1Qof1dOc9$mY9I4Cj: 1 of 1 constraints are valid.
+set group: ValidationResult.VALID: 1 of 1 constraints are valid.
+FRIDGE_FREEZER as expected
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575376 Global Id: 29iJ3Qorb7pw3KGs9fdkw3: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575378 Global Id: 1K7eM1Qof1dOc9$mY9I4Cm: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575380 Global Id: 09LXvibln0YPNmPO49mD6k: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575382 Global Id: 1K7eM1Qof1dOc9$mY9I4Cq: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575383 Global Id: 1K7eM1Qof1dOc9$mY9I4Cr: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575385 Global Id: 1K7eM1Qof1dOc9$mY9I4Cx: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575386 Global Id: 1K7eM1Qof1dOc9$mY9I4Cu: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575387 Global Id: 1K7eM1Qof1dOc9$mY9I4Cv: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575388 Global Id: 1K7eM1Qof1dOc9$mY9I4C_: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575390 Global Id: 1K7eM1Qof1dOc9$mY9I4Cy: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575392 Global Id: 1BZbxAG8L6z9EEpSZfugOW: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575394 Global Id: 1K7eM1Qof1dOc9$mY9I4C0: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575396 Global Id: 1K7eM1Qof1dOc9$mY9I4C6: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575398 Global Id: 1K7eM1Qof1dOc9$mY9I4C4: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575400 Global Id: 1K7eM1Qof1dOc9$mY9I4CA: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575402 Global Id: 1K7eM1Qof1dOc9$mY9I4C8: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575405 Global Id: 2IG0VrX6zB1x1jfqawxCAz: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575406 Global Id: 1K7eM1Qof1dOc9$mY9I4CC: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575407 Global Id: 1K7eM1Qof1dOc9$mY9I4CD: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575409 Global Id: 1K7eM1Qof1dOc9$mY9I4CJ: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575410 Global Id: 1K7eM1Qof1dOc9$mY9I4CG: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575419 Global Id: 1K7eM1Qof1dOc9$mY9I4CP: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575422 Global Id: 1K7eM1Qof1dOc9$mY9I4CS: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575424 Global Id: 1K7eM1Qof1dOc9$mY9I4DY: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575425 Global Id: 1K7eM1Qof1dOc9$mY9I4DZ: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575426 Global Id: 1K7eM1Qof1dOc9$mY9I4DW: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575428 Global Id: 1K7eM1Qof1dOc9$mY9I4Dc: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575430 Global Id: 1K7eM1Qof1dOc9$mY9I4Da: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575432 Global Id: 1K7eM1Qof1dOc9$mY9I4Dg: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575434 Global Id: 1K7eM1Qof1dOc9$mY9I4De: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575435 Global Id: 1K7eM1Qof1dOc9$mY9I4Df: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575436 Global Id: 1K7eM1Qof1dOc9$mY9I4Dk: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575438 Global Id: 1K7eM1Qof1dOc9$mY9I4Di: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575439 Global Id: 1K7eM1Qof1dOc9$mY9I4Dj: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575440 Global Id: 1K7eM1Qof1dOc9$mY9I4Do: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575441 Global Id: 1K7eM1Qof1dOc9$mY9I4Dp: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575442 Global Id: 1K7eM1Qof1dOc9$mY9I4Dm: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575444 Global Id: 1K7eM1Qof1dOc9$mY9I4Ds: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575445 Global Id: 1K7eM1Qof1dOc9$mY9I4Dt: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575446 Global Id: 1K7eM1Qof1dOc9$mY9I4Dq: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575448 Global Id: 1K7eM1Qof1dOc9$mY9I4Dw: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575449 Global Id: 1K7eM1Qof1dOc9$mY9I4Dx: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575451 Global Id: 1K7eM1Qof1dOc9$mY9I4Dv: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575454 Global Id: 1K7eM1Qof1dOc9$mY9I4Dy: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575456 Global Id: 1K7eM1Qof1dOc9$mY9I4D2: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575460 Global Id: 1K7eM1Qof1dOc9$mY9I4D6: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575462 Global Id: 1K7eM1Qof1dOc9$mY9I4D4: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575464 Global Id: 1K7eM1Qof1dOc9$mY9I4DA: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575466 Global Id: 1K7eM1Qof1dOc9$mY9I4D8: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575468 Global Id: 1K7eM1Qof1dOc9$mY9I4DE: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575469 Global Id: 1K7eM1Qof1dOc9$mY9I4DF: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575470 Global Id: 1K7eM1Qof1dOc9$mY9I4DC: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575471 Global Id: 1K7eM1Qof1dOc9$mY9I4DD: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575473 Global Id: 1K7eM1Qof1dOc9$mY9I4DJ: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575475 Global Id: 1K7eM1Qof1dOc9$mY9I4DH: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575476 Global Id: 1K7eM1Qof1dOc9$mY9I4DM: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575477 Global Id: 1K7eM1Qof1dOc9$mY9I4DN: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575478 Global Id: 1K7eM1Qof1dOc9$mY9I4DK: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting and Appliance Panelboard - 208V MLO:400 A:Unit A Panelboard:575479 Global Id: 0dJKPQcDL7OOA9T2YsJr1q: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Lighting and Appliance Panelboard - 208V MLO:400 A:Unit B Panelboard:575481 Global Id: 1K7eM1Qof1dOc9$mY9I4DR: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575483 Global Id: 1K7eM1Qof1dOc9$mY9I4DP: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575484 Global Id: 1K7eM1Qof1dOc9$mY9I4DU: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575485 Global Id: 1K7eM1Qof1dOc9$mY9I4DV: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575486 Global Id: 1K7eM1Qof1dOc9$mY9I4DS: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575487 Global Id: 1K7eM1Qof1dOc9$mY9I4DT: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575488 Global Id: 1K7eM1Qof1dOc9$mY9I4oY: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sconce Light - Sphere:100W - 120V:100W - 120V:575490 Global Id: 1K7eM1Qof1dOc9$mY9I4oW: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Range:760 x 650mm:760 x 650mm:575492 Global Id: 1KqYAj00bE8PYy0bzaxy9l: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: ELECTRICCOOKER
+
+IfcFlowTerminal M_Range:760 x 650mm:760 x 650mm:575493 Global Id: 1K7eM1Qof1dOc9$mY9I4od: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: ELECTRICCOOKER
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575494 Global Id: 1K7eM1Qof1dOc9$mY9I4oa: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:575495 Global Id: 1K7eM1Qof1dOc9$mY9I4ob: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575505 Global Id: 1K7eM1Qof1dOc9$mY9I4op: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575507 Global Id: 1K7eM1Qof1dOc9$mY9I4on: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Pendant Light - Hemisphere:150W - 120V:150W - 120V:575508 Global Id: 1K7eM1Qof1dOc9$mY9I4os: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lighting Switches:Single Pole:Single Pole:575510 Global Id: 1K7eM1Qof1dOc9$mY9I4oq: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Shower Stall - Rectangular:865 mmx815 mm - Private:865 mmx815 mm - Private:582914 Global Id: 3YwYaskHb9bvjoDfW05AdE: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582915 Global Id: 02A38ateT5NgmAdzUlg9_5: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:535 mmx485 mm - Private:535 mmx485 mm - Private:582916 Global Id: 1uhDdJFhH79efaAOyK3eAf: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Shower Stall - Rectangular:865 mmx815 mm - Private:865 mmx815 mm - Private:582917 Global Id: 2h405XijT83A$BX7w5ki4p: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582918 Global Id: 2h405XijT83A$BX7w5ki4m: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:535 mmx485 mm - Private:535 mmx485 mm - Private:582919 Global Id: 2h405XijT83A$BX7w5ki4n: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sink - Island - Single:455 mmx455 mm - Private:455 mmx455 mm - Private:582920 Global Id: 37TXYoMojAaPHjgvmWpTIt: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Sink - Island - Single:455 mmx455 mm - Private:455 mmx455 mm - Private:582922 Global Id: 2h405XijT83A$BX7w5ki4y: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Bath Tub:1525 mmx760 mm - Private:1525 mmx760 mm - Private:582924 Global Id: 1YLPoi73z0fvdanmaXQreg: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582925 Global Id: 2h405XijT83A$BX7w5ki4x: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582926 Global Id: 0Pz783AEDBOhI4t6HcCeBV: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582927 Global Id: 2h405XijT83A$BX7w5ki4v: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582928 Global Id: 2h405XijT83A$BX7w5ki4c: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Lavatory - Oval:650 mmx485 mm - Private:650 mmx485 mm - Private:582929 Global Id: 2h405XijT83A$BX7w5ki4d: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Water Closet - Flush Tank:Private - 6.1 Lpf:Private - 6.1 Lpf:582930 Global Id: 2h405XijT83A$BX7w5ki4a: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Bath Tub:1525 mmx760 mm - Private:1525 mmx760 mm - Private:582931 Global Id: 2h405XijT83A$BX7w5ki4b: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:606293 Global Id: 3ffkyt4A92pAkW8PI4iuU$: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:606323 Global Id: 3ffkyt4A92pAkW8PI4iuUP: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Telephone Outlet:Telophone Outlet:Telophone Outlet:611904 Global Id: 1pq8_0PnP2dxhiUN2win6E: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Telephone Outlet:Telophone Outlet:Telophone Outlet:611989 Global Id: 1l2cgO2D5FS9t6u8i4CvoP: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Telephone Outlet:Telophone Outlet:Telophone Outlet:612214 Global Id: 1l2cgO2D5FS9t6u8i4Cvrw: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Telephone Outlet:Telophone Outlet:Telophone Outlet:612319 Global Id: 1l2cgO2D5FS9t6u8i4CvtJ: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Microwave:760 x 400 x 450mm:760 x 400 x 450mm:615600 Global Id: 30wAmTVov8$h_Num9pR67y: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: MICROWAVE
+
+IfcFlowTerminal M_Microwave:760 x 400 x 450mm:760 x 400 x 450mm:615603 Global Id: 0BXZ22CoT4Qw2YCiUW32ZF: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: MICROWAVE
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:615696 Global Id: 3kSHn3rCT2Mgjzvy7hm5ie: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Duplex Receptacle:Duplex Receptacle:Duplex Receptacle:615756 Global Id: 3kSHn3rCT2Mgjzvy7hm5jq: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+On traversing the path definition on the ifc instance ends in nowhere. There are none selected values.
+
+IfcFlowTerminal M_Fire Alarm Control Panel:400x475:Fire Alarm Panel:617780 Global Id: 2crQZN_qT6JfzoVwnn5j7r: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED
+
+IfcFlowTerminal M_Telephone Terminal Board:TTB 300x300:TTB1:618690 Global Id: 0LKhur6rD1_voREOiUHLZi: 0 of 1 constraints are valid.
+set group: ValidationResult.FAILED: 0 of 1 constraints are valid.
+validation equals failed - expected: FRIDGE_FREEZER, actual: NOTDEFINED

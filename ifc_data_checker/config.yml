@@ -1,0 +1,16 @@
+constraints:
+    - Constraint
+    - SetGroup
+    - AndGroup
+    - OrGroup
+path_operators:
+    - ListPathOperator
+    - AttributePathOperator
+    - TypeFilterPathOperator
+    - AttributeFilterPathOperator
+constraint_checks:
+    - EqualsCheck
+    - InCheck
+    - ExistsCheck
+    - NotCheck
+    - TypeCheck
