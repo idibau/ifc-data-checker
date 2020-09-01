@@ -1,0 +1,2 @@
+include rules.schema.json
+include ifc_data_checker/config.yml

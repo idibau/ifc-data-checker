@@ -15,6 +15,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/idibau/ifc-data-checker",
     packages=setuptools.find_packages(),
+    py_modules=["checker"],
+    install_requires=['pyyaml', 'jsonschema'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
