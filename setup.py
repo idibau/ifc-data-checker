@@ -18,9 +18,8 @@ setuptools.setup(
     py_modules=["checker"],
     install_requires=['pyyaml', 'jsonschema'],
     package_data={
-        '': ['*.schema.json', '*.yml']
+        'ifc_data_checker': ['ifc_data_checker/config.yml', 'ifc_data_checker/rules.schema.json'],
     },
-    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
