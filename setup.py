@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ifc-data-checker",
-    version="0.0.4",
+    version="0.0.5",
     author="Dominik Fringeli",
     author_email="dominik.fringeli@students.fhnw.ch",
     description="The IFC Data Checker can validate rules on an ifc model.",
@@ -18,7 +18,7 @@ setuptools.setup(
     py_modules=["checker"],
     install_requires=['pyyaml', 'jsonschema'],
     package_data={
-        'ifc_data_checker': ['ifc_data_checker/config.yml', 'ifc_data_checker/rules.schema.json'],
+        'ifc_data_checker': ['config.yml', 'rules.schema.json'],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
