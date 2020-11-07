@@ -27,8 +27,23 @@ def print_help():
     print(help_file.read())
 
 
-def main():
+def check(rules_file, ifc_file, report_file, no_rulesfile_validation):
     """execute ifc data checker"""
+    if report_file:
+        report_strategy = report.create_validation_report_file
+    else:
+        report_strategy = report.create_validation_report_console
+
+    rules_json = get_json_rules(rules_file)
+    if not no_rulesfile_validation:
+        rules_schema = get_json_rules_schema("rules.schema.json")
+        jsonschema.validate(instance=rules_json, schema=rules_schema)
+
+    validated_rules = rules.validate(rules_json["rules"], ifc_file)
+    report_strategy(validated_rules, rules_file, ifc_file)
+
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "rules", help="The path to the rules file.")
@@ -39,23 +54,5 @@ def main():
                              "instead of showing the validation report on the console.")
     parser.add_argument("--no-rulesfile-validation", action="store_true",
                         help="Disable validation of the rules file.")
-
     args = parser.parse_args()
-    rules_file = args.rules
-    ifc_file = args.ifc
-    if args.report_file:
-        report_strategy = report.create_validation_report_file
-    else:
-        report_strategy = report.create_validation_report_console
-
-    rules_json = get_json_rules(rules_file)
-    if not args.no_rulesfile_validation:
-        rules_schema = get_json_rules_schema("rules.schema.json")
-        jsonschema.validate(instance=rules_json, schema=rules_schema)
-
-    validated_rules = rules.validate(rules_json["rules"], ifc_file)
-    report_strategy(validated_rules, rules_file, ifc_file)
-
-
-if __name__ == "__main__":
-    main()
+    check(args.rules, args.ifc, args.report_file, args.no_rulesfile_validation)
