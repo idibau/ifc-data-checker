@@ -4,7 +4,6 @@ import json
 import jsonschema
 import yaml
 
-from ifc_data_checker import checker
 from ifc_data_checker import rules
 from ifc_data_checker import report
 
