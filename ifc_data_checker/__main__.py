@@ -8,7 +8,7 @@ from ifc_data_checker import rules
 from ifc_data_checker import report
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(prog='ifc_data_checker')
     parser.add_argument(
         "rules", help="The path to the rules file.")
     parser.add_argument(
