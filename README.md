@@ -32,19 +32,19 @@ ImportError: IfcOpenShell not built for 'windows\64bit\python3.8'
 Run the IFC Data Checker with:
 
 ```shell
-python checker.py ./path/to/rules-file.yml ./path/to/ifc-model.ifc
+python -m ifc_data_checker ./path/to/rules-file.yml ./path/to/ifc-model.ifc
 ```
 
-Repository example:
+GitHub Repository example:
 
 ```shell
-python checker.py "./rulesfiles/PredefinedType for IfcWall.yml" "./ifcfiles/Duplex-A.ifc"
+python -m ifc_data_checker "./rulesfiles/PredefinedType for IfcWall.yml" "./ifcfiles/Duplex-A.ifc"
 ```
 
 Usage:
 
 ```shell
-usage: checker.py [-h] [--report-file] [--no-rulesfile-validation] rules ifc
+usage: ifc_data_checker [-h] [--report-file] [--no-rulesfile-validation] rules ifc
 
 positional arguments:
   rules                 The path to the rules file.
