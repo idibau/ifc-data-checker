@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ifc-data-checker",
-    version="0.0.11",
+    version="0.0.12",
     author="Dominik Fringeli",
     author_email="dominik.fringeli@students.fhnw.ch",
     description="The IFC Data Checker can validate rules on an ifc model.",
