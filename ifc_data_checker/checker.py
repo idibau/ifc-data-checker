@@ -1,6 +1,4 @@
 """The IFC Data Checker"""
-import argparse
-
 import json
 import jsonschema
 import yaml
@@ -41,18 +39,3 @@ def check(rules_file, ifc_file, report_file, no_rulesfile_validation):
 
     validated_rules = rules.validate(rules_json["rules"], ifc_file)
     report_strategy(validated_rules, rules_file, ifc_file)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "rules", help="The path to the rules file.")
-    parser.add_argument(
-        "ifc", help="The path to the ifc file.")
-    parser.add_argument("--report-file", action="store_true",
-                        help="Create a validation report file, "
-                             "instead of showing the validation report on the console.")
-    parser.add_argument("--no-rulesfile-validation", action="store_true",
-                        help="Disable validation of the rules file.")
-    args = parser.parse_args()
-    check(args.rules, args.ifc, args.report_file, args.no_rulesfile_validation)
