@@ -2,7 +2,7 @@
 import abc
 from typing import Any, List
 
-from ifc_data_checker.yaml import YamlMatchingKeys
+from ifc_data_checker.yaml_helper import YamlMatchingKeys
 
 
 class PathOperator(abc.ABC, YamlMatchingKeys):

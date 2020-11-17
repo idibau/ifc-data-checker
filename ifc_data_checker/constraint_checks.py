@@ -3,7 +3,7 @@ import abc
 
 from ifc_data_checker import config
 from ifc_data_checker.validation import ValidationInformation
-from ifc_data_checker.yaml import YamlMatchingKeys
+from ifc_data_checker.yaml_helper import YamlMatchingKeys
 
 
 class ConstraintCheck(abc.ABC, YamlMatchingKeys):
