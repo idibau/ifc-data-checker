@@ -68,28 +68,28 @@ jobs:
           name: coverage reports
           path: ./htmlcov
   
-  robot:
-    runs-on: ubuntu-16.04
-    container: fringelid/ifc_data_checker_ci
-    needs: [ test, coverage ]
-    steps:
-      - uses: actions/checkout@v2
-      - name: Print job robot
-        run: echo robot
-      - name: Do robot
-        run: robot robottests
-      - name: Upload robot artifact
-        uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: robot log
-          path: ./log.html
-      - name: Upload robot artifact
-        uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: robot report
-          path: ./report.html
+  # robot:
+  #   runs-on: ubuntu-16.04
+  #   container: fringelid/ifc_data_checker_ci
+  #   needs: [ test, coverage ]
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Print job robot
+  #       run: echo robot
+  #     - name: Do robot
+  #       run: robot robottests
+  #     - name: Upload robot artifact
+  #       uses: actions/upload-artifact@v2
+  #       if: always()
+  #       with:
+  #         name: robot log
+  #         path: ./log.html
+  #     - name: Upload robot artifact
+  #       uses: actions/upload-artifact@v2
+  #       if: always()
+  #       with:
+  #         name: robot report
+  #         path: ./report.html
   
   html:
     runs-on: ubuntu-latest
