@@ -94,7 +94,7 @@ jobs:
   html:
     runs-on: ubuntu-latest
     container: fringelid/ifc_data_checker_ci
-    needs: [ robot ]
+    # needs: [ robot ]
     steps:
       - uses: actions/checkout@v2
       - name: Print job sphinx html
@@ -110,7 +110,7 @@ jobs:
   pdf:
     runs-on: ubuntu-latest
     container: fringelid/ifc_data_checker_ci
-    needs: [ robot ]
+    # needs: [ robot ]
     steps:
       - uses: actions/checkout@v2
       - name: Print job sphinx pdf
