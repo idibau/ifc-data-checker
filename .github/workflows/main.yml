@@ -77,7 +77,10 @@ jobs:
       - name: Print job robot
         run: echo robot
       - name: Do robot
-        run: robot robottests
+        run: |
+          rm -r ./ifcopenshell
+          cp -R /ifcopenshell/ ./ifcopenshell/
+          robot robottests
       - name: Upload robot artifact
         uses: actions/upload-artifact@v2
         with:
