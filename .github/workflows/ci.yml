@@ -1,4 +1,4 @@
-name: CI
+name: ci
 
 on: push
 
@@ -69,7 +69,7 @@ jobs:
           path: ./htmlcov
   
   robot:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     container: fringelid/ifc_data_checker_ci
     needs: [ test, coverage ]
     steps:
