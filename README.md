@@ -2,21 +2,27 @@
 
 IFC Data Checker is a tool to validate rules on IFC models. To do so, the IFC Data Checker needs a rules file and an IFC model. The rules file has to match the rules specification in the report of the bachelor thesis of the IFC Data Checker. The IFC model need to be of version 2x3 or version 4.
 
-Clone this repository and install the dependencies:
+Installation:
 
 ```shell
 pip install ifc-data-checker
 ```
 
-## IfcOpenShell Python
+Or clone this repository and install the dependencies
 
-To run the IFC Data Checker, IfcOpenShell need to fit your machine environment regarding:
+```shell
+pip install -r requirements.txt
+```
+
+## Add IfcOpenShell Python
+
+To run the IFC Data Checker, you need to install the python package IfcOpenShell. IT need to fit your machine environment regarding:
 
 * the Python version
 * the os (Windows, Linux , Mac)
 * the os flavor (32bit or 64bit)
 
-To run the IFC Data Checker, you need to do the following steps:
+To install IfcOpenShell, you need to do the following steps:
 
 1. Go to [ifcopenshell.org/python](http://ifcopenshell.org/python) and download the matching IfcOpenShell. Use the latest IfcOpenShell version.
 2. Extract the downloaded file and paste the `ifcopenshell` folder to the directory `site-packages` of the python installation. The folder need to be called `ifcopenshell`.
@@ -29,7 +35,7 @@ If IfcOpenShell not matching your machine environment, then it will trow an exce
 ImportError: IfcOpenShell not built for 'windows\64bit\python3.8'
 ```
 
-Run the IFC Data Checker with:
+## Run the IFC Data Checker
 
 ```shell
 python ifc_data_checker ./path/to/rules-file.yml ./path/to/ifc-model.ifc
