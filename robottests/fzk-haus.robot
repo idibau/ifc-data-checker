@@ -10,7 +10,8 @@ ${expectedfile}    ./robottests/fzk-haus expected report.txt
 *** Test Cases ***
 
 property set and is typed by
-    ${result}=                     RUN PROCESS         python                   checker.py    ${rulesfile}    ${ifcfile}
+    ${result}=                     RUN PROCESS         python                   ifc_data_checker    ${rulesfile}    ${ifcfile}
+    Log To Console                 ${result.rc}
     SHOULD BE EQUAL AS INTEGERS    ${result.rc}        0
     ${expectedvalidation}=         GET FILE            ${expectedfile}
     SHOULD BE EQUAL                ${result.stdout}    ${expectedvalidation}
