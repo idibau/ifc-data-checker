@@ -5,7 +5,7 @@ IFC Data Checker is a tool to validate rules on IFC models. To do so, the IFC Da
 Clone this repository and install the dependencies:
 
 ```shell
-pip install -r requirements.txt
+pip install ifc-data-checker
 ```
 
 ## IfcOpenShell Python
@@ -32,13 +32,13 @@ ImportError: IfcOpenShell not built for 'windows\64bit\python3.8'
 Run the IFC Data Checker with:
 
 ```shell
-python -m ifc_data_checker ./path/to/rules-file.yml ./path/to/ifc-model.ifc
+python ifc_data_checker ./path/to/rules-file.yml ./path/to/ifc-model.ifc
 ```
 
 GitHub Repository example:
 
 ```shell
-python -m ifc_data_checker "./rulesfiles/PredefinedType for IfcWall.yml" "./ifcfiles/Duplex-A.ifc"
+python ifc_data_checker "./rulesfiles/PredefinedType for IfcWall.yml" "./ifcfiles/Duplex-A.ifc"
 ```
 
 Usage:

@@ -1,0 +1,92 @@
+name: ci
+
+on: push
+
+jobs:
+  pylint:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job pylint
+        run: echo pylint
+      - name: Do pylint
+        run: pylint ./ifc_data_checker/
+      - name: Upload pylint artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: source code
+          path: ./ifc_data_checker/
+  
+  bandit:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job bandit
+        run: echo bandit
+      - name: Do bandit
+        run: bandit -r . -x ./ifcopenshell/ -o bandit-report.txt -f txt
+      - name: Upload bandit artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: bandit report
+          path: ./bandit-report.txt
+  
+  test:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    needs: [ pylint, bandit ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job test
+        run: echo test
+      - name: Do test
+        run: python -m unittest tests.suite
+      - name: Upload test artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: test reports
+          path: ./reports
+  
+  coverage:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    needs: [ pylint, bandit ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job coverage
+        run: echo coverage
+      - name: Do coverage
+        run: | 
+          coverage run --omit=*/__init__.py,./tests/*,./ifcopenshell/*,./docs/* -m unittest discover -s ./tests -p '*_test.py' -v
+          coverage report -m
+          coverage html
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage reports
+          path: ./htmlcov
+  
+  # robot:
+  #   runs-on: ubuntu-16.04
+  #   container: fringelid/ifc_data_checker_ci
+  #   needs: [ test, coverage ]
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Print job robot
+  #       run: echo robot
+  #     - name: Do robot
+  #       run: robot robottests
+  #     - name: Upload robot artifact
+  #       uses: actions/upload-artifact@v2
+  #       if: always()
+  #       with:
+  #         name: robot log
+  #         path: ./log.html
+  #     - name: Upload robot artifact
+  #       uses: actions/upload-artifact@v2
+  #       if: always()
+  #       with:
+  #         name: robot report
+  #         path: ./report.html

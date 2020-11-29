@@ -131,6 +131,8 @@ reports
 log.html
 report.html
 output.xml
+stdout.txt
+stderr.txt
 
 # Bandit
 bandit-report.txt
