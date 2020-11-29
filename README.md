@@ -5,7 +5,7 @@ IFC Data Checker is a tool to validate rules on IFC models. To do so, the IFC Da
 Clone this repository and install the dependencies:
 
 ```shell
-pip install -r requirements.txt
+pip install ifc-data-checker
 ```
 
 ## IfcOpenShell Python
