@@ -32,3 +32,59 @@ jobs:
         with:
           name: bandit report
           path: ./bandit-report.txt
+  
+  test:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    needs: [ pylint, bandit ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job test
+        run: echo test
+      - name: Do test
+        run: python -m unittest tests.suite
+      - name: Upload test artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: test reports
+          path: ./reports
+  
+  coverage:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    needs: [ pylint, bandit ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job coverage
+        run: echo coverage
+      - name: Do coverage
+        run: | 
+          coverage run --omit=*/__init__.py,./tests/*,./ifcopenshell/*,./docs/* -m unittest discover -s ./tests -p '*_test.py' -v
+          coverage report -m
+          coverage html
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage reports
+          path: ./htmlcov
+  
+  robot:
+    runs-on: ubuntu-latest
+    container: fringelid/ifc_data_checker_ci
+    needs: [ test, coverage ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Print job robot
+        run: echo robot
+      - name: Do robot
+        run: robot robottests
+      - name: Upload robot artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot log
+          path: ./log.html
+      - name: Upload robot artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot report
+          path: ./report.html
