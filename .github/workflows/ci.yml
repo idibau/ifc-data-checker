@@ -90,35 +90,3 @@ jobs:
   #       with:
   #         name: robot report
   #         path: ./report.html
-  
-  html:
-    runs-on: ubuntu-latest
-    container: fringelid/ifc_data_checker_ci
-    # needs: [ robot ]
-    steps:
-      - uses: actions/checkout@v2
-      - name: Print job sphinx html
-        run: echo sphinx html
-      - name: Do html
-        run: sphinx-build -b html ./docs ./docs/_build/html
-      - name: Upload sphinx html artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: sphinx html
-          path: ./docs/_build/html
-  
-  pdf:
-    runs-on: ubuntu-latest
-    container: fringelid/ifc_data_checker_ci
-    # needs: [ robot ]
-    steps:
-      - uses: actions/checkout@v2
-      - name: Print job sphinx pdf
-        run: echo sphinx pdf
-      - name: Do pdf
-        run: sphinx-build -b pdf ./docs ./docs/_build/pdf
-      - name: Upload sphinx pdf artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: shpinx pdf
-          path: ./docs/_build/pdf/ifcdatachecker.pdf
