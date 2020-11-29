@@ -80,11 +80,13 @@ jobs:
         run: robot robottests
       - name: Upload robot artifact
         uses: actions/upload-artifact@v2
+        if: failure()
         with:
           name: robot log
           path: ./log.html
       - name: Upload robot artifact
         uses: actions/upload-artifact@v2
+        if: failure()
         with:
           name: robot report
           path: ./report.html
